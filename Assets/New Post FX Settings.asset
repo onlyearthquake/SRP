@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e62cf885cd52d84e9929fc5b4f494fa, type: 3}
+  m_Name: New Post FX Settings
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: 822b042aad9eb4f45bb73b9f64b5037b, type: 3}

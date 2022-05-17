@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c09c9ba443ab8425ca7560934947ff53, type: 3}
+  m_Name: Custom RP
+  m_EditorClassIdentifier: 
+  postFXSettings: {fileID: 11400000, guid: 729a5ad4d6619db40a3f0c8134d92cc6, type: 2}
+  shadows:
+    maxDistance: 50
+    distanceFade: 0.001
+    other:
+      atlasSize: 256
+      filter: 0
+    directional:
+      atlasSize: 1024
+      cascadeCount: 4
+      cascadeRatio1: 0.3
+      cascadeRatio2: 0.5
+      cascadeRatio3: 0.7
+      cascadeFade: 0.1
+      filterMode: 4
+      PCSS_FilterRadius: 1
+      PCSS_SearchRadius: 0.38
+      cascadeBlend: 2
+  useDynamicBatching: 1
+  useGPUInstancing: 1
+  useSRPBatcher: 0
+  useLightsPerObject: 1
+  NoiseTex: {fileID: 2800000, guid: 8c4a382643b6c5e49b90706010f26718, type: 3}
